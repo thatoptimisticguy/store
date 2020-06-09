@@ -1,0 +1,13 @@
+{
+    "name": "Thoughts Lexicon - 2",
+    "short_name": "Thoughts Lexicon - 2",
+    "icons": [{
+        "src": "/logo_192_by_192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "start_url": "/",
+    "display": "standalone",
+    "gcm_sender_id": "597858669315",
+    "gcm_user_visible_only": true
+}
