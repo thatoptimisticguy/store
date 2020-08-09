@@ -38,6 +38,14 @@ window.settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=
             }
             
         </style>
+        <script>
+            function tog_function(){
+                var color = document.querySelector('body > span > input').value;
+                console.log(color);
+                window._pcq = window._pcq || [];
+                window._pcq.push(['tag', 'check_color', color]);
+            }
+        </script>
         
     </head>
 
@@ -51,7 +59,7 @@ window.settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=
         <script src="script.js"></script>
         
         <span class="answer">
-                <input></input><button>submit</button>
+                <input></input><button onclick='tog_function()'>submit</button>
         </span>
         
     </body>
