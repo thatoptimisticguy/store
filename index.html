@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <link rel="stylesheet" type="text/css" href="/script.js">
         <meta charset="UTF-8">
         <title>Section 7: Get Ready for the Future: ES6 / ES2015</title>
         <script data-ad-client="ca-pub-9482137581162543" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -19,46 +21,6 @@ f=false,d=document,code={use_existing_jquery:function(){return use_existing_jque
 window.settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b=hide_element?hide_element+'{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}':'',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+(+is_spa)+'&r='+Math.random());return settings_timer; }};window._vwo_settings_timer = code.init(); return code; }());
 </script>
 <!-- End VWO Async Smartcode -->
-        
-        <style>
-            .tog_main{
-                align : center; 
-                color: white; 
-            }
-            .box {
-                width: 200px;
-                padding: 60px;
-                text-align: center;
-                font-size: 30px;
-                margin-top: 50px;
-            }
-            
-            .green { background-color: green; }
-            .blue { background-color: dodgerblue; }
-            .orange { background-color: orangered; }
-            
-            .answer{
-                margin: 25px;
-                display: flex;
-            }
-            
-            body{
-                   background: url(red_bg.png) no-repeat center center fixed; 
-                   background: url(blue_bg.png) no-repeat center center fixed;
-                  -webkit-background-size: cover;
-                  -moz-background-size: cover;
-                  -o-background-size: cover;
-                  background-size: cover;
-                }
-        </style>
-        <script>
-            function tog_function(){
-                var color = document.querySelector('body > span > input').value;
-                console.log(color);
-                window._pcq = window._pcq || [];
-                window._pcq.push(['tag', 'check_color', color]);
-            }
-        </script>
         
     </head>
 
@@ -95,9 +57,17 @@ window.settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=
         
         <h1>Section 7: Get Ready for the Future: ES6 / ES2015</h1>
         
-        <div class="box green">I'm green!</div>
-        <div class="box blue">I'm blue!</div>
-        <div class="box orange">I'm orange!</div>
+        <div class="tog_carousel">
+            <div class="box green item slide-in">I'm green!</div>
+            <div class="box blue item slide-in">I'm blue!</div>
+            <div class="box orange item slide-in">I'm orange!</div>
+            <div class="controls">
+                <a href="#item1" class="btn"></a>
+                <a href="#item2" class="btn"></a>
+                <a href="#item3" class="btn"></a>
+                <a href="#item4" class="btn"></a>
+            </div>
+        </div>
         
         <script src="script.js"></script>
         
